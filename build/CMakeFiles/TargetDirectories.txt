@@ -1,0 +1,3 @@
+C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build/CMakeFiles/ImGuiTest.dir
+C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build/CMakeFiles/edit_cache.dir
+C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build/CMakeFiles/rebuild_cache.dir

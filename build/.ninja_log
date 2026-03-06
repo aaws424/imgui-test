@@ -1,0 +1,7 @@
+# ninja log v7
+13	102	7945083668945575	CMakeFiles/ImGuiTest.dir/main.cpp.obj	c8eb4ff03c7cfa13
+102	583	7945083669834737	ImGuiTest.exe	76b22b67905e89b3
+3	542	7945096899105017	CMakeFiles/ImGuiTest.dir/src/main.cpp.obj	7d8163b081f47897
+10	543	7945096899169896	CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj	69f67281ce98f3d3
+7	657	7945096899145029	CMakeFiles/ImGuiTest.dir/src/App.cpp.obj	4cf343e38f5c73bf
+657	1183	7945096905617823	ImGuiTest.exe	d5272a7cf25fd6d4
