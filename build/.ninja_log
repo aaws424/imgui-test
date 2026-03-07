@@ -1,7 +1,17 @@
 # ninja log v7
-13	102	7945083668945575	CMakeFiles/ImGuiTest.dir/main.cpp.obj	c8eb4ff03c7cfa13
-102	583	7945083669834737	ImGuiTest.exe	76b22b67905e89b3
-3	542	7945096899105017	CMakeFiles/ImGuiTest.dir/src/main.cpp.obj	7d8163b081f47897
-10	543	7945096899169896	CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj	69f67281ce98f3d3
-7	657	7945096899145029	CMakeFiles/ImGuiTest.dir/src/App.cpp.obj	4cf343e38f5c73bf
-657	1183	7945096905617823	ImGuiTest.exe	d5272a7cf25fd6d4
+6	372	7945586166889277	CMakeFiles/ImGuiTest.dir/src/App.cpp.obj	4cf343e38f5c73bf
+9	622	7945586166889277	CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj	69f67281ce98f3d3
+3	93	7945586873564526	CMakeFiles/ImGuiTest.dir/src/main.cpp.obj	7d8163b081f47897
+93	725	7945586874522374	ImGuiTest.exe	d5272a7cf25fd6d4
+15	109	7945587068479379	CMakeFiles/ImGuiTest.dir/src/main.cpp.obj	7d8163b081f47897
+19	610	7945587068545566	CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj	69f67281ce98f3d3
+610	1077	7945587074458339	ImGuiTest.exe	d5272a7cf25fd6d4
+15	105	7945588659026752	CMakeFiles/ImGuiTest.dir/src/main.cpp.obj	7d8163b081f47897
+18	594	7945588659026752	CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj	69f67281ce98f3d3
+595	1118	7945588664848652	ImGuiTest.exe	d5272a7cf25fd6d4
+19	106	7945588859536670	CMakeFiles/ImGuiTest.dir/src/main.cpp.obj	7d8163b081f47897
+23	622	7945588859546606	CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj	69f67281ce98f3d3
+622	1082	7945588865555216	ImGuiTest.exe	d5272a7cf25fd6d4
+28	120	7945589469185935	CMakeFiles/ImGuiTest.dir/src/main.cpp.obj	7d8163b081f47897
+32	639	7945589469299924	CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj	69f67281ce98f3d3
+640	1122	7945589475321656	ImGuiTest.exe	d5272a7cf25fd6d4

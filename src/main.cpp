@@ -9,46 +9,49 @@
 
 int main()
 {
+    // Initialize GLFW
     if (!glfwInit())
         return 1;
 
     const char* glsl_version = "#version 130";
 
-    GLFWwindow* window = glfwCreateWindow(800, 600, "ImGui Test Window", NULL, NULL);
+    // CHANGED: Make window unresizable and set size to match panel (320x700)
+    glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+    GLFWwindow* window = glfwCreateWindow(320, 700, "File Reader", NULL, NULL);
     glfwMakeContextCurrent(window);
     glfwSwapInterval(1);
 
+    // Setup ImGui context
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
+    
+    // CHANGED: Set custom modern theme (replaced StyleColorsDark)
     ApplyModernTheme();
-    ImGuiIO& io = ImGui::GetIO(); (void)io;
-
-    ImGui::StyleColorsDark();
 
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init(glsl_version);
 
-    float sliderValue = 0.5f;
-    int counter = 0;
-    char textBuffer[128] = "Type here";
-    char imagePath[260] = "";
-    char feedback[1024] = "";
-
-    while (!glfwWindowShouldClose(window)) {
+    // Main loop
+    while (!glfwWindowShouldClose(window)){
         glfwPollEvents();
 
+        // Start the Dear ImGui frame
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
-        RenderUI(sliderValue, counter, textBuffer, imagePath, feedback, (int)sizeof(feedback), window);
+        // CHANGED: Call RenderUI with only window - all UI state managed in UI.cpp
+        RenderUI(window);
 
+        // Rendering
         ImGui::Render();
-
+        
         int display_w, display_h;
         glfwGetFramebufferSize(window, &display_w, &display_h);
         glViewport(0, 0, display_w, display_h);
-        glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+        
+        // CHANGED: Updated background color to match gray theme (easier on eyes)
+        glClearColor(0.85f, 0.85f, 0.85f, 1.0f); 
         glClear(GL_COLOR_BUFFER_BIT);
 
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
