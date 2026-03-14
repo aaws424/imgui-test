@@ -1,0 +1,19 @@
+# Ignore the entire build directory
+build/
+bin/
+obj/
+
+# Ignore Visual Studio specific files
+.vs/
+*.sln
+*.vcxproj
+*.user
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.out
+
+# Ignore OpenCV specific temporary files
+opencv_ffmpeg*.dll
