@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
 find_package(OpenGL REQUIRED)
+find_package(OpenCV REQUIRED)
 
 # 2. Define the executable
 add_executable(ImGuiTest
@@ -23,4 +24,5 @@ target_link_libraries(ImGuiTest
     imgui::imgui
     glfw        # vcpkg's glfw3 package usually exports the target name 'glfw'
     OpenGL::GL
+    ${OpenCV_LIBS}
 )

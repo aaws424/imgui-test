@@ -1,19 +1,19 @@
 [
 {
   "directory": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build",
-  "command": "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -I\"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\include\" -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\ImGuiTest.dir\\src\\main.cpp.obj /FdCMakeFiles\\ImGuiTest.dir\\ /FS -c \"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\src\\main.cpp\"",
+  "command": "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -I\"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\include\" -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include\\opencv4 -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\ImGuiTest.dir\\src\\main.cpp.obj /FdCMakeFiles\\ImGuiTest.dir\\ /FS -c \"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\src\\main.cpp\"",
   "file": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/src/main.cpp",
   "output": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build/CMakeFiles/ImGuiTest.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build",
-  "command": "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -I\"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\include\" -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\ImGuiTest.dir\\src\\App.cpp.obj /FdCMakeFiles\\ImGuiTest.dir\\ /FS -c \"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\src\\App.cpp\"",
+  "command": "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -I\"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\include\" -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include\\opencv4 -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\ImGuiTest.dir\\src\\App.cpp.obj /FdCMakeFiles\\ImGuiTest.dir\\ /FS -c \"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\src\\App.cpp\"",
   "file": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/src/App.cpp",
   "output": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build/CMakeFiles/ImGuiTest.dir/src/App.cpp.obj"
 },
 {
   "directory": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build",
-  "command": "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -I\"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\include\" -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\ImGuiTest.dir\\src\\UI.cpp.obj /FdCMakeFiles\\ImGuiTest.dir\\ /FS -c \"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\src\\UI.cpp\"",
+  "command": "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -I\"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\include\" -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include -external:IC:\\Dev\\vcpkg\\installed\\x64-windows\\include\\opencv4 -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\ImGuiTest.dir\\src\\UI.cpp.obj /FdCMakeFiles\\ImGuiTest.dir\\ /FS -c \"C:\\Users\\TECH MIND\\Desktop\\work\\Cpp\\my Cpp ImGUI test\\src\\UI.cpp\"",
   "file": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/src/UI.cpp",
   "output": "C:/Users/TECH MIND/Desktop/work/Cpp/my Cpp ImGUI test/build/CMakeFiles/ImGuiTest.dir/src/UI.cpp.obj"
 }

@@ -203,17 +203,18 @@ void RenderUI(GLFWwindow *window, App& app) {
     ImGui::SetNextWindowSize(ImVec2(main_content_width, content_height));
     ImGui::Begin("ContentArea", NULL, ImGuiWindowFlags_NoDecoration | ImGuiWindowFlags_NoMove);
 
-    float feed_height = content_height * 0.6f;
-    float preview_height = content_height - feed_height - 10.0f;
+    float spacing = ImGui::GetStyle().ItemSpacing.x;
+    float child_width = (main_content_width - spacing - 20.0f) * 0.5f;
+    float child_height = content_height - 10.0f;
 
     // Live Camera Feed area
-    ImGui::BeginChild("LiveFeed", ImVec2(0, feed_height), true);
+    ImGui::BeginChild("LiveFeed", ImVec2(child_width, child_height), true);
     ImGui::Text("LIVE CAMERA FEED");
     ImGui::Separator();
     // Placeholder for video frame
     ImDrawList* draw_list = ImGui::GetWindowDrawList();
     ImVec2 p0 = ImGui::GetCursorScreenPos();
-    ImVec2 p1 = ImVec2(p0.x + main_content_width - 40.0f, p0.y + feed_height - 60.0f);
+    ImVec2 p1 = ImVec2(p0.x + child_width - 20.0f, p0.y + child_height - 60.0f);
     draw_list->AddRectFilled(p0, p1, IM_COL32(50, 50, 50, 255));
     if (app.cameraRunning) {
         draw_list->AddText(ImVec2(p0.x + 20, p0.y + 20), IM_COL32(0, 255, 0, 255), "[ CAMERA ACTIVE ]");
@@ -222,16 +223,16 @@ void RenderUI(GLFWwindow *window, App& app) {
     }
     ImGui::EndChild();
 
-    ImGui::Spacing();
+    ImGui::SameLine();
 
     // Stitched Mosaic Preview area
-    ImGui::BeginChild("MosaicPreview", ImVec2(0, preview_height), true);
+    ImGui::BeginChild("MosaicPreview", ImVec2(child_width, child_height), true);
     ImGui::Text("STITCHED MOSAIC PREVIEW");
     ImGui::Separator();
     ImVec2 m0 = ImGui::GetCursorScreenPos();
-    ImVec2 m1 = ImVec2(m0.x + main_content_width - 40.0f, m0.y + preview_height - 60.0f);
+    ImVec2 m1 = ImVec2(m0.x + child_width - 20.0f, m0.y + child_height - 60.0f);
     draw_list->AddRectFilled(m0, m1, IM_COL32(30, 30, 40, 255));
-    draw_list->AddText(ImVec2(m0.x + 20, m0.y + 20), IM_COL32(255, 255, 255, 200), "Preview will appear here after stitching...");
+    draw_list->AddText(ImVec2(m0.x + 20, m0.y + 20), IM_COL32(255, 255, 255, 200), "Preview will appear here...");
     ImGui::EndChild();
 
     ImGui::End();

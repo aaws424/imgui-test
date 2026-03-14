@@ -4,6 +4,7 @@
  */
 #include "App.h"
 #include "UI.h"
+#include "ocv.h"
 
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
@@ -14,6 +15,9 @@
 
 int main()
 {
+    // Run OpenCV Integration Test
+    RunOpenCVTest();
+
     // Initialize GLFW
     if (!glfwInit())
         return 1;

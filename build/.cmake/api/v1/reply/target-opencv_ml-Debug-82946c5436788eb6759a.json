@@ -1,0 +1,80 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Dev/vcpkg/installed/x64-windows/debug/bin/opencv_world4d.dll"
+		},
+		{
+			"path" : "C:/Dev/vcpkg/installed/x64-windows/debug/lib/opencv_world4d.lib"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"_find_package",
+			"find_package"
+		],
+		"files" : 
+		[
+			"C:/Dev/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 908,
+				"parent" : 1
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 245,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "opencv_ml::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"local" : true,
+	"name" : "opencv_ml",
+	"nameOnDisk" : "opencv_world4d.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "SHARED_LIBRARY"
+}
